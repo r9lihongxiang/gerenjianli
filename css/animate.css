@@ -1,0 +1,45 @@
+.rotateMusic{
+    animation: rotateMusic 1.5s linear infinite;
+}
+.infinite{
+    animation-iteration-count: infinite;
+}
+.pao1{
+    animation: pao1 2.5s linear infinite;
+}
+.pao2{
+    animation: pao2 2.2s linear infinite;
+}
+.pao3{
+    animation: pao3 2.1s linear infinite;
+}
+.pao4{
+    animation: pao4 2.5s linear infinite;
+}
+.pao5{
+    animation: pao5 0.5s linear infinite;
+}
+@keyframes rotateMusic {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
+@keyframes pao5 {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes pao1 {
+    0%{transform: translateY(0rem);opacity: 0;}
+    100%{transform: translateY(-3rem);opacity: 1;}
+}
+@keyframes pao2 {
+    0%{transform: translateY(0rem);opacity: 0;}
+    100%{transform: translateY(-4rem);opacity: 1;}
+}
+@keyframes pao3 {
+    0%{transform: translateY(0rem);opacity: 0;}
+    100%{transform: translateY(-3.5rem);opacity: 1;}
+}
+@keyframes pao4 {
+    0%{transform: translateY(0rem);opacity: 0;}
+    100%{transform: translateY(-3rem);opacity: 1;}
+}

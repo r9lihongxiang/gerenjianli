@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+/*зЂвт*/
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    background: url("../img/bg1.jpg");
+    background-size: 100% 100%;
+}
+.page1{
+    position: relative;
+}
+.page1 .pic1{
+    position: absolute;
+}
+.page1 .pic2{
+    position: absolute;
+}
+.page1 .pic3{
+    position: absolute;
+}
+.page1 .pic4{
+    position: absolute;
+}
+
+.page2 .pic11{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: 0.8rem auto 0 auto;
+    display: block;
+    border-radius: 50%;
+    border: 0.03rem solid #bce8f1;
+}
+.page2 .pic22{
+    font-size: 0.5rem;
+    color: #bce8f1;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.page2 .pic33{
+    font-size: 0.55rem;
+    color: #bce8f1;
+    text-align: center;
+    margin-bottom: 0.4rem;
+}
+.page2 .pic44{
+    font-size: 0.25rem;
+    color: #bce8f1;
+    margin: 0.2rem 0 0.2rem 0.5rem;
+}
+.page2 .pic55,.pic66,.pic77,.pic88,.pic99{
+    height: 0.45rem;
+    font-size: 0.2rem;
+    color: #bce8f1;
+    margin-left: 0.5rem;
+}
+.page3 .pic111{
+    font-size: 0.5rem;
+    color: #bce8f1;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.page3 .pic222,.pic333,.pic444{
+    font-size: 0.4rem;
+    color: lavenderblush;
+    margin: 0.6rem 0 0.2rem 0;
+}
+.page3 .box1{
+    width: 4rem;
+    height: 0.4rem;
+    background: greenyellow;
+    margin-left: 0.2rem;
+}
+.page3 .box2{
+    width: 3.5rem;
+    height: 0.4rem;
+    background: greenyellow;
+    margin-left: 0.2rem;
+}
+.page3 .box3{
+    width: 2rem;
+    height: 0.4rem;
+    background: greenyellow;
+    margin-left: 0.2rem;
+}
+.page4 .wen1{
+    font-size: 0.5rem;
+    color: #bce8f1;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.page4 .wen2{
+    font-size: 0.2rem;
+    color: greenyellow;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.page4 .wen3{
+    position: absolute;
+    top: 2rem;
+    left: 0.3rem;
+}
+.page4 .wen4{
+    position: absolute;
+    top: 2rem;
+    right: 0.3rem;
+}
+.page4 .wen5{
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    margin-left: -0.75rem;
+}
+.page4 img{
+    width: 1.5rem;
+    height: 2rem;
+}
+.page5 .zi1{
+    font-size: 0.7rem;
+    text-align: center;
+    color: #bce8f1;
+    margin-top: 1.5rem;
+}
+.page5 .zi2{
+    font-size: 0.7rem;
+    text-align: center;
+    color: #bce8f1;
+    margin-top: 0.5rem;
+}
+.page5 .zi3{
+    margin-top: 2rem;
+    font-size: 0.2rem;
+    text-align: center;
+    color: #bce8f1;
+}
+.page5 .zi4{
+    margin-top: 0.2rem;
+    font-size: 0.2rem;
+    text-align: center;
+    color: #bce8f1;
+}
+.music{
+    display: block;
+    width: 0.6rem;
+    height: 0.6rem;
+    background: url("../img/music.png");
+    background-size: 0.6rem 0.6rem;
+    position: fixed;
+    right: 0.2rem;
+    top: 0.2rem;
+    z-index: 999;
+}
+.qipao1{
+    position: absolute;
+    z-index: 11;
+    bottom: 0;
+}
+.qipao2{
+    position: absolute;
+    z-index: 11;
+    bottom: 0;
+    left: 20%;
+}
+.qipao3{
+    position: absolute;
+    z-index: 11;
+    bottom: 0;
+    left: 50%;
+}
+.qipao4{
+    position: absolute;
+    z-index: 11;
+    bottom: 0;
+    left: 80%;
+}
+.qipao5{
+    position: absolute;
+    z-index: 11;
+    top: 1%;
+    left: 20%;
+}
+.qipao6{
+    position: absolute;
+    z-index: 11;
+    bottom: 60%;
+    left: 70%;
+}
